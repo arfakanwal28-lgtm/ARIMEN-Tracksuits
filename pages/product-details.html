@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ARIMEN | Product Details</title>
+
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body>
+
+    <!-- Top header -->
+    <header class="shop-header">
+
+        <a href="../index.html" class="shop-logo">
+            ARIMEN
+        </a>
+
+    </header>
+
+    <!-- Navigation -->
+    <nav class="shop-navigation">
+        <a href="../index.html">Home</a>
+        <a href="products.html">Tracksuits</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+    </nav>
+
+    <!-- Promotional bar -->
+    <section class="promotion-bar">
+        <p>FREE DELIVERY OVER £75</p>
+        <p>PREMIUM ARIMEN TRACKSUITS</p>
+        <p>SECURE CHECKOUT</p>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>›</span>
+        <a href="products.html">Tracksuits</a>
+        <span>›</span>
+        <span id="breadcrumb-product">ARIMEN Product</span>
+    </div>
+    <main class="product-details-layout">
+<div class="product-gallery">
+
+    <div class="product-thumbnails">
+
+        <img
+            src="../media/images/carbon.jpg"
+            alt="Carbon view 1"
+            class="thumbnail active">
+
+        <img
+            src="../media/images/carbon 2.jpg"
+            alt="Carbon view 2"
+            class="thumbnail">
+
+        <img
+            src="../media/images/carbon 3.jpg"
+            alt="Carbon view 3"
+            class="thumbnail">
+
+    </div>
+
+    <div class="product-main-image">
+
+        <img
+            src="../media/images/carbon.jpg"
+            alt="ARIMEN Carbon Tracksuit"
+            id="main-product-image">
+
+    </div>
+
+</div>
+
+    <section class="product-information">
+
+        <h1>ARIMEN Carbon Tracksuit</h1>
+
+        <p class="product-price">£74.99</p>
+
+        <div class="size-heading">
+    <h2>Choose size</h2>
+
+    <button
+        type="button"
+        class="size-guide-button">
+        Size Guide
+    </button>
+</div>
+
+        <div class="product-size-buttons">
+            <button type="button">S</button>
+            <button type="button">M</button>
+            <button type="button">L</button>
+            <button type="button">XL</button>
+        </div>
+
+        <button
+    type="button"
+    class="product-add-cart">
+    Add to Cart
+</button>
+
+        <button type="button" class="product-wishlist">
+            Add to Wishlist
+        </button>
+
+    </section>
+
+</main>
+<!-- Size Guide Popup -->
+<div class="size-guide-modal">
+
+    <div class="size-guide-content">
+
+        <button class="close-size-guide">&times;</button>
+
+        <h2>ARIMEN Size Guide</h2>
+
+        <table class="size-guide-table">
+
+            <thead>
+                <tr>
+                    <th>UK</th>
+                    <th>Chest</th>
+                    <th>Waist</th>
+                    <th>Hip</th>
+                    <th>Leg Length</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>S</td>
+                    <td>34–37"</td>
+                    <td>28–31"</td>
+                    <td>34–37"</td>
+                    <td>30–31"</td>
+                </tr>
+
+                <tr>
+                    <td>M</td>
+                    <td>37–40"</td>
+                    <td>31–35"</td>
+                    <td>37–40"</td>
+                    <td>31–32"</td>
+                </tr>
+
+                <tr>
+                    <td>L</td>
+                    <td>40–44"</td>
+                    <td>35–38"</td>
+                    <td>40–44"</td>
+                    <td>32–33"</td>
+                </tr>
+
+                <tr>
+                    <td>XL</td>
+                    <td>44–48"</td>
+                    <td>38–42"</td>
+                    <td>44–47"</td>
+                    <td>33–34"</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+<script src="../js/script.js"></script>
+
+<div class="cart-panel-overlay"></div>
+
+<aside class="cart-panel">
+  <button class="cart-panel-close" type="button">&times;</button>
+
+  <h2>✓ Added to Cart</h2>
+
+  <div class="cart-panel-product">
+    <img id="cart-panel-image" src="" alt="Selected product">
+
+    <div>
+      <h3 id="cart-panel-name">ARIMEN Tracksuit</h3>
+      <p id="cart-panel-size">Size: M</p>
+      <p id="cart-panel-price">£0.00</p>
+    </div>
+  </div>
+
+  <a href="cart.html" class="cart-panel-view">
+    View Cart
+  </a>
+
+  <a href="cart.html" class="cart-panel-checkout">
+    Checkout
+  </a>
+</aside>
+</body>
+</html>

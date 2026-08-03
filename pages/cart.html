@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - ARIMEN</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body>
+
+<header>
+    <h1>
+    <a href="../index.html" aria-label="ARIMEN homepage">ARIMEN</a>
+</h1>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+    </nav>
+</header>
+
+<main class="cart-page">
+
+    <section class="cart-left">
+        <h2>Bag</h2>
+
+        <section id="cart-items" aria-live="polite">
+            <!-- JavaScript displays cart products here -->
+        </section>
+    </section>
+
+    <aside class="cart-summary">
+        <h2>Summary</h2>
+
+        <div class="summary-row">
+            <span>Subtotal</span>
+            <span>£<span id="cart-total">0.00</span></span>
+        </div>
+
+        <div class="summary-row">
+            <span>Estimated Delivery</span>
+            <span>£4.50</span>
+        </div>
+
+        <div class="summary-row summary-total">
+            <span>Total</span>
+            <span>£<span id="final-total">4.50</span></span>
+        </div>
+
+        <button type="button" class="checkout-btn">
+            Checkout
+        </button>
+    </aside>
+
+</main>
+<footer>
+<p>&copy; 2026 ARIMEN. All Rights Reserved.</p>
+</footer>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
